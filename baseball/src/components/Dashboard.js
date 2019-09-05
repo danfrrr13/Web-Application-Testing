@@ -11,7 +11,7 @@ const Dashboard = props => {
             reset();
         }
     }, [props.values.strike]);
-    const ball = () => {
+    const ball = ballScore => {
         props.setValues(prevValues => ({...prevValues, ball: prevValues.ball + 1}));
         
     }
