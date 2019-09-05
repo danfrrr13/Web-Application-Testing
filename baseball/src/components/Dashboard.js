@@ -1,0 +1,15 @@
+import React from 'react';
+
+const Dashboard = props => {
+    return (
+        <div>
+            <button onClick={props.ball}>Ball</button>
+            <button onClick={props.strike}>Strike</button>
+            <button onClick={props.hit}>Hit</button>
+            <button onClick={props.foul}>Foul</button>
+            <button onClick={props.reset}>Reset</button>
+        </div>
+    )
+}
+
+export default Dashboard;
